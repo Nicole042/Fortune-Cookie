@@ -1,0 +1,81 @@
+.app {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.title {
+    font-size: 50px;
+    margin-bottom: 70px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 1em rgba(241, 161, 255, 1);
+    border-radius: 10px;
+    
+}
+.card {
+    width: 100%;
+    max-width: 23rem;
+    background-color: rgba(181, 220, 255, 0.5);
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0.3em 0.3em 0.5em black;
+    line-height: 1.4;
+    margin-bottom: 50px
+   
+}
+.button {
+    display: block;
+    font-size: 40px;
+    background-color: rgba(106, 90, 205, 0.4) ;
+    border-radius: 10px;
+    transition: 0 0 1em ease, box-shadow 100ms ease;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 1em rgba(241, 161, 255, 0.6)
+}
+.img {
+    position: absolute;
+    width: 200px;
+    left: 0;
+    bottom: 0;
+}
+.img1 {
+    position: absolute;
+    width: 130px;
+    right: 0;
+    top: 0;
+    top: 20px;
+    right: 20px;
+}
+
+
+
+@media (max-width: 375px) {
+    .title{
+        font-size: 30px;
+    }
+    .card,
+    .button { 
+        font-size: 20px;
+    }
+    .app {
+        padding: 30px;
+    }
+    .img {
+        width: 70px;
+    }
+    .img1 {
+        width: 50px;
+    }
+
+}
