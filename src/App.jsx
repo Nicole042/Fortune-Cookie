@@ -14,8 +14,7 @@ function App() {
 
   return (
    <div className={`app backgroundImg background${backgroundIndex}`} >
-    <img className="img"src="/imagenGalleta.png" alt="" />
-    <img className="img1" src="/imgGalletados.png" alt="" />
+
       <h1 className="title">Galleta de la fortuna</h1>
       <div className="card">
         <Phrase phraseChanger = {phraseChanger}/>
@@ -23,6 +22,10 @@ function App() {
       <div className="button">
         <Button setPhraseChanger={setPhraseChanger}
         setbackgroundIndex={setbackgroundIndex}/>
+      </div>
+      <div className="imgs">
+        <img className="img" src="public/imagenGalleta.png" alt="" />
+        <img className="img" src="public/imagenGalleta.png" alt="" />
       </div>
    </div>
    
