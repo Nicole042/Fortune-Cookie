@@ -24,8 +24,8 @@ function App() {
         setbackgroundIndex={setbackgroundIndex}/>
       </div>
       <div className="imgs">
-        <img className="img" src="public/imagenGalleta.png" alt="" />
-        <img className="img" src="public/imagenGalleta.png" alt="" />
+        <img className="img" src="imagenGalleta.png" alt="" />
+        <img className="img" src="imagenGalleta.png" alt="" />
       </div>
    </div>
    
